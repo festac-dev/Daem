@@ -1,0 +1,369 @@
+{
+  "schema_version": 1,
+  "skills": [
+    {
+      "name": "daem-motion",
+      "purpose": "Motion graphics, animation and video workflows",
+      "source": "festac-dev/SKILLS",
+      "revision": "6984cfb3d9af203680ba7324e46ad38c1d5c9e23",
+      "original_name": "motion-studio",
+      "licenses": [
+        "upstream-licenses/LICENSE",
+        "upstream-licenses/NOTICE.md"
+      ]
+    },
+    {
+      "name": "daem-motion-direction",
+      "purpose": "Motion graphics direction and frame-by-frame review",
+      "source": "Tejashmakwana/motionmaxxing",
+      "revision": "8c8ec0f2a6f6c9a0da15cd24f7b1298ab298368c",
+      "original_name": "motionmaxxing",
+      "licenses": [
+        "upstream-licenses/LICENSE",
+        "upstream-licenses/NOTICE"
+      ]
+    },
+    {
+      "name": "daem-unslop",
+      "purpose": "Improve AI-generated interface design",
+      "source": "heydamir/unslop",
+      "revision": "620163eedb3529d9cd23a3994ed8d287d06f760d",
+      "original_name": "unslop",
+      "licenses": [
+        "upstream-licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "daem-3d-scenes",
+      "purpose": "Build and organize Three.js scenes",
+      "source": "full-stack-skills/threejs-skills",
+      "revision": "92789c1eda17bbfade4a4274903038dcfe6cbff0",
+      "original_name": "threejs-scenes",
+      "licenses": [
+        "upstream-licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "daem-3d-animation",
+      "purpose": "Animate 3D scenes",
+      "source": "full-stack-skills/threejs-skills",
+      "revision": "92789c1eda17bbfade4a4274903038dcfe6cbff0",
+      "original_name": "threejs-animation",
+      "licenses": [
+        "upstream-licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "daem-3d-materials",
+      "purpose": "Materials and shaders",
+      "source": "full-stack-skills/threejs-skills",
+      "revision": "92789c1eda17bbfade4a4274903038dcfe6cbff0",
+      "original_name": "threejs-materials",
+      "licenses": [
+        "upstream-licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "daem-3d-assets",
+      "purpose": "Load 3D models and textures",
+      "source": "full-stack-skills/threejs-skills",
+      "revision": "92789c1eda17bbfade4a4274903038dcfe6cbff0",
+      "original_name": "threejs-loaders",
+      "licenses": [
+        "upstream-licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "daem-3d-rendering",
+      "purpose": "Rendering and performance",
+      "source": "full-stack-skills/threejs-skills",
+      "revision": "92789c1eda17bbfade4a4274903038dcfe6cbff0",
+      "original_name": "threejs-renderers",
+      "licenses": [
+        "upstream-licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "daem-video",
+      "purpose": "Cinematic product videos and shot planning",
+      "source": "Vincentwei1021/video-shotcraft",
+      "revision": "87107512ba09df1555a92ffa76495f115675d62f",
+      "original_name": "video-shotcraft",
+      "licenses": [
+        "upstream-licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "daem-demo-capture",
+      "purpose": "Capture product demo videos",
+      "source": "surajshetty3416/demo-video-skill",
+      "revision": "ebcaa98528997b3f75502c08df8e393a1eec5806",
+      "original_name": "demo-video",
+      "licenses": [
+        "upstream-licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "daem-demo-storytelling",
+      "purpose": "Narrated product demo videos",
+      "source": "ajanaku1/demo-video-skill",
+      "revision": "8fba18e7aca23b3bcfdb7e3f7999202e819049a8",
+      "original_name": "demo-video",
+      "licenses": [
+        "upstream-licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "daem-frontend-design",
+      "purpose": "Distinctive frontend visual design",
+      "source": "anthropics/skills",
+      "revision": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+      "original_name": "frontend-design",
+      "licenses": [
+        "upstream-licenses/LICENSE.txt"
+      ]
+    },
+    {
+      "name": "daem-ui-polish",
+      "purpose": "UI typography, spacing and interaction polish",
+      "source": "pbakaus/impeccable",
+      "revision": "d41d9860b0094dcb68030657da63461212835aaa",
+      "original_name": "impeccable",
+      "licenses": [
+        "upstream-licenses/LICENSE",
+        "upstream-licenses/NOTICE.md"
+      ]
+    },
+    {
+      "name": "daem-accessibility",
+      "purpose": "Accessible UI and WCAG checks",
+      "source": "rohitg00/awesome-claude-code-toolkit",
+      "revision": "ebdf1d596d2cde5c5cceb32177e8d1cf4829e7d9",
+      "original_name": "accessibility-wcag",
+      "licenses": [
+        "upstream-licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "daem-requirements",
+      "purpose": "Turn a feature brief into requirements",
+      "source": "Jeffallan/claude-skills",
+      "revision": "67c1961b180dc92cf08983344627109e983e8f51",
+      "original_name": "feature-forge",
+      "licenses": [
+        "upstream-licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "daem-architecture",
+      "purpose": "Application architecture and tradeoffs",
+      "source": "Jeffallan/claude-skills",
+      "revision": "67c1961b180dc92cf08983344627109e983e8f51",
+      "original_name": "architecture-designer",
+      "licenses": [
+        "upstream-licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "daem-fullstack",
+      "purpose": "Deliver complete frontend and backend features",
+      "source": "Jeffallan/claude-skills",
+      "revision": "67c1961b180dc92cf08983344627109e983e8f51",
+      "original_name": "fullstack-guardian",
+      "licenses": [
+        "upstream-licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "daem-api-design",
+      "purpose": "API contracts and error handling",
+      "source": "Jeffallan/claude-skills",
+      "revision": "67c1961b180dc92cf08983344627109e983e8f51",
+      "original_name": "api-designer",
+      "licenses": [
+        "upstream-licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "daem-database",
+      "purpose": "Queries, schema and database performance",
+      "source": "Jeffallan/claude-skills",
+      "revision": "67c1961b180dc92cf08983344627109e983e8f51",
+      "original_name": "database-optimizer",
+      "licenses": [
+        "upstream-licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "daem-secure-coding",
+      "purpose": "Secure implementation and OWASP checks",
+      "source": "Jeffallan/claude-skills",
+      "revision": "67c1961b180dc92cf08983344627109e983e8f51",
+      "original_name": "secure-code-guardian",
+      "licenses": [
+        "upstream-licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "daem-security-review",
+      "purpose": "Review code and infrastructure security",
+      "source": "Jeffallan/claude-skills",
+      "revision": "67c1961b180dc92cf08983344627109e983e8f51",
+      "original_name": "security-reviewer",
+      "licenses": [
+        "upstream-licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "daem-pentest",
+      "purpose": "Plan and conduct authorized penetration tests",
+      "source": "sickn33/agentic-awesome-skills",
+      "revision": "12c0d66d3c007b8109edb0e7211812119be09d84",
+      "original_name": "pentest-checklist",
+      "licenses": [
+        "upstream-licenses/LICENSE",
+        "upstream-licenses/LICENSE-CONTENT"
+      ]
+    },
+    {
+      "name": "daem-testing",
+      "purpose": "Test strategy and meaningful coverage",
+      "source": "Jeffallan/claude-skills",
+      "revision": "67c1961b180dc92cf08983344627109e983e8f51",
+      "original_name": "test-master",
+      "licenses": [
+        "upstream-licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "daem-browser-testing",
+      "purpose": "Browser tests and debugging",
+      "source": "Jeffallan/claude-skills",
+      "revision": "67c1961b180dc92cf08983344627109e983e8f51",
+      "original_name": "playwright-expert",
+      "licenses": [
+        "upstream-licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "daem-deployment",
+      "purpose": "Build, deployment and operational checks",
+      "source": "Jeffallan/claude-skills",
+      "revision": "67c1961b180dc92cf08983344627109e983e8f51",
+      "original_name": "devops-engineer",
+      "licenses": [
+        "upstream-licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "daem-documentation",
+      "purpose": "Maintain useful technical documentation",
+      "source": "Jeffallan/claude-skills",
+      "revision": "67c1961b180dc92cf08983344627109e983e8f51",
+      "original_name": "code-documenter",
+      "licenses": [
+        "upstream-licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "daem-code-review",
+      "purpose": "Review implementation changes",
+      "source": "Jeffallan/claude-skills",
+      "revision": "67c1961b180dc92cf08983344627109e983e8f51",
+      "original_name": "code-reviewer",
+      "licenses": [
+        "upstream-licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "daem-typescript",
+      "purpose": "TypeScript implementation and type design",
+      "source": "Jeffallan/claude-skills",
+      "revision": "67c1961b180dc92cf08983344627109e983e8f51",
+      "original_name": "typescript-pro",
+      "licenses": [
+        "upstream-licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "daem-debugging",
+      "purpose": "Find root causes before changing code",
+      "source": "obra/superpowers",
+      "revision": "22f0b463e7a5e579904dd6211a520321035526f7",
+      "original_name": "systematic-debugging",
+      "licenses": [
+        "upstream-licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "daem-verification",
+      "purpose": "Verify changes before reporting completion",
+      "source": "obra/superpowers",
+      "revision": "22f0b463e7a5e579904dd6211a520321035526f7",
+      "original_name": "verification-before-completion",
+      "licenses": [
+        "upstream-licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "daem-ui-ux",
+      "purpose": "UI/UX design system, styles and practical recommendations",
+      "source": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "revision": "ed766d3bf62f32c8d27762ad49abdc3a4744c84f",
+      "original_name": "ui-ux-pro-max",
+      "licenses": [
+        "upstream-licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "daem-design-engineering",
+      "purpose": "Implement refined interactions and interfaces",
+      "source": "emilkowalski/skills",
+      "revision": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
+      "original_name": "emil-design-eng",
+      "licenses": [
+        "upstream-licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "daem-animation-vocabulary",
+      "purpose": "Specify animation in concrete terms",
+      "source": "emilkowalski/skills",
+      "revision": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
+      "original_name": "animation-vocabulary",
+      "licenses": [
+        "upstream-licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "daem-animation-review",
+      "purpose": "Review animation timing and interaction",
+      "source": "emilkowalski/skills",
+      "revision": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
+      "original_name": "review-animations",
+      "licenses": [
+        "upstream-licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "daem-domain-modeling",
+      "purpose": "Model application concepts and boundaries",
+      "source": "mattpocock/skills",
+      "revision": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+      "original_name": "domain-modeling",
+      "licenses": [
+        "upstream-licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "daem-find-skills",
+      "purpose": "Find additional task-specific skills",
+      "source": "vercel-labs/skills",
+      "revision": "57217cf86ba38148a57af9e90d14a4c049558330",
+      "original_name": "find-skills",
+      "licenses": [
+        "upstream-licenses/LICENSE"
+      ]
+    }
+  ]
+}
