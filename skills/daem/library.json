@@ -1,0 +1,8 @@
+{
+  "repository": "festac-dev/Daem",
+  "ref": "daem-library-v1.0.0",
+  "sourceVariable": "DAEM_LIBRARY_SOURCE",
+  "checkoutDepth": 2,
+  "registry": "SOURCES.json",
+  "indexPath": "runtime/index.json"
+}

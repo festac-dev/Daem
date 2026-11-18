@@ -4,23 +4,42 @@ A focused collection of practical skills for building intermediate projects: mot
 
 ## Install globally
 
-Install every Daem skill for Codex, Claude Code and OpenCode across all your projects:
+Install the small Daem entrypoint for Codex, Claude Code and OpenCode across all your projects:
 
 ```sh
-npx skills add festac-dev/Daem --skill '*' --agent codex claude-code opencode -g -y --copy
+npx skills add festac-dev/Daem --skill daem --agent codex claude-code opencode -g -y --copy
 ```
 
 Requires Node.js 22.20+ and Git. `-g` installs globally so skills are available across projects. To install for only your current AI tool, choose its agent name:
 
 ```sh
-npx skills add festac-dev/Daem --skill '*' -a opencode -g -y --copy
+npx skills add festac-dev/Daem --skill daem -a opencode -g -y --copy
 ```
 
 Use `codex`, `claude-code`, or `opencode`. Skills are stored in locations supported by the selected agent: Codex and OpenCode can use `~/.agents/skills/`; Claude Code uses `~/.claude/skills/`. The documented commands use `--copy` to install actual skill files.
 
 A skill supplies instructions. Tools, APIs and application dependencies mentioned by it must be available when the task needs them.
 
-## Included skills
+## Find and read over MCP
+
+The AI discovers one small entrypoint. The 36 guides, assets, licences and search index stay outside the agent's skills folders, in this checkout or an external cache. MCP exposes `find` and `read`; search returns a few matches and read returns bounded pages with continuation positions.
+
+Register MCP globally from a checkout:
+
+```sh
+node scripts/setup-mcp.mjs --all
+```
+
+Or configure an MCP server using `node ~/.agents/skills/daem/scripts/mcp-server.mjs` (Claude's copied entrypoint is under `~/.claude/skills/daem`). First search fetches the pinned index into `~/.cache/festac-skills/`; selected guides and supporting files are fetched on demand. Set `DAEM_LIBRARY_SOURCE` to a complete checkout for offline use.
+
+The CLI uses the same engine:
+
+```sh
+node ~/.agents/skills/daem/scripts/skills.mjs find "motion video" --limit 3
+node ~/.agents/skills/daem/scripts/skills.mjs read daem-ui-ux
+```
+
+## Included guides
 
 | Skill | Use for |
 |---|---|
