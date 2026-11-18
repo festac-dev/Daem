@@ -2,44 +2,57 @@
 
 A focused collection of practical skills for building intermediate projects: motion, UI/UX, 3D, video and demos, secure coding, authorized pentesting, testing, documentation and deployment.
 
-## Install globally
+## Install for your AI app
 
-Install the small Daem entrypoint for Codex, Claude Code and OpenCode across all your projects:
+These public commands work for anyone. Choose the app you use. `-g` makes the entrypoint available across projects; the second command registers the MCP server in that app's user configuration. Node.js 22.20+ and Git are required.
+
+### Codex
+
+```sh
+npx skills add festac-dev/Daem --skill daem --agent codex -g -y --copy
+node "$HOME/.agents/skills/daem/scripts/setup-mcp.mjs" --codex
+```
+
+### Claude Code
+
+```sh
+npx skills add festac-dev/Daem --skill daem --agent claude-code -g -y --copy
+node "$HOME/.claude/skills/daem/scripts/setup-mcp.mjs" --claude-code
+```
+
+### OpenCode
+
+```sh
+npx skills add festac-dev/Daem --skill daem --agent opencode -g -y --copy
+node "$HOME/.agents/skills/daem/scripts/setup-mcp.mjs" --opencode
+```
+
+### All three apps
 
 ```sh
 npx skills add festac-dev/Daem --skill daem --agent codex claude-code opencode -g -y --copy
+node "$HOME/.agents/skills/daem/scripts/setup-mcp.mjs" --all
 ```
 
-Requires Node.js 22.20+ and Git. `-g` installs globally so skills are available across projects. To install for only your current AI tool, choose its agent name:
+The installer uses each person's home directory. MCP registration preserves other servers and backs up changed configuration files. Open a fresh agent session after setup.
+
+## Read skills through MCP
+
+The AI's skill folders contain only a small entrypoint and its runtime scripts. The dataset and index stay outside those folders. MCP `find` returns a few IDs and short descriptions; `read` loads a selected skill, section, or supporting file in bounded pages. Default: 80 lines, with at most 10,000 UTF-8 content bytes; maximum: 160 lines. Follow the returned `next.offset` and `next.column` to continue.
+
+On first search, the index is cached under `~/.cache/festac-skills/` (or `XDG_CACHE_HOME`). Selected skills and files are cached there on demand. The full catalogue is never inserted into AI context automatically.
+
+For offline use, clone the repository outside your agent's skills folder. Register MCP from the checkout:
 
 ```sh
-npx skills add festac-dev/Daem --skill daem -a opencode -g -y --copy
-```
-
-Use `codex`, `claude-code`, or `opencode`. Skills are stored in locations supported by the selected agent: Codex and OpenCode can use `~/.agents/skills/`; Claude Code uses `~/.claude/skills/`. The documented commands use `--copy` to install actual skill files.
-
-A skill supplies instructions. Tools, APIs and application dependencies mentioned by it must be available when the task needs them.
-
-## Find and read over MCP
-
-The AI discovers one small entrypoint. The 36 guides, assets, licences and search index stay outside the agent's skills folders, in this checkout or an external cache. MCP exposes `find` and `read`; search returns a few matches and read returns bounded pages with continuation positions.
-
-Register MCP globally from a checkout:
-
-```sh
+git clone https://github.com/festac-dev/Daem.git
+cd Daem
 node scripts/setup-mcp.mjs --all
 ```
 
-Or configure an MCP server using `node ~/.agents/skills/daem/scripts/mcp-server.mjs` (Claude's copied entrypoint is under `~/.claude/skills/daem`). First search fetches the pinned index into `~/.cache/festac-skills/`; selected guides and supporting files are fetched on demand. Set `DAEM_LIBRARY_SOURCE` to a complete checkout for offline use.
+The setup script finds the checkout on the current machine. `DAEM_LIBRARY_SOURCE` can also select a complete local dataset. Supporting scripts may require neighbouring resources before execution.
 
-The CLI uses the same engine:
-
-```sh
-node ~/.agents/skills/daem/scripts/skills.mjs find "motion video" --limit 3
-node ~/.agents/skills/daem/scripts/skills.mjs read daem-ui-ux
-```
-
-## Included guides
+## Included skills
 
 | Skill | Use for |
 |---|---|
